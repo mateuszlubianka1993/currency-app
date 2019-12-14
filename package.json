@@ -1,0 +1,37 @@
+{
+  "name": "currency-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateuszlubianka1993/currency-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateuszlubianka1993/currency-app/issues"
+  },
+  "homepage": "https://github.com/mateuszlubianka1993/currency-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.3.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
