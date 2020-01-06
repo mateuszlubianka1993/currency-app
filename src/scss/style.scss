@@ -16,6 +16,12 @@ body {
         .nav-link, .navbar-brand {
             color: #fff !important;
         }
+
+        .nav-link {
+            &:hover {
+                background-color: darken($primary-color, 5%);
+            }
+        }
     }
 
     .main-header {
@@ -41,6 +47,13 @@ body {
                 h1 {
                     font-size: 6.5rem;
                     flex-basis: 100%;
+
+                    @media (max-width: $break-large) {
+                        font-size: 5.6rem;  
+                    }
+                    @media (max-width: $break-small) {
+                        font-size: 4.7rem;  
+                    }
                 }
 
                 .header-btn {
@@ -49,6 +62,19 @@ body {
                     width: 30%;
                     align-self: flex-end;
                     margin-top: 70px;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: darken($primary-color, 5%);
+                    }
+
+                    @media (max-width: $break-large) {
+                        width: 35%; 
+                        margin-top: 50px; 
+                    }
+                    @media (max-width: $break-small) {
+                        width: 45%;  
+                    }
                 }
             }
         }
