@@ -1,0 +1,12 @@
+// COLORS
+$primary-color: #FF6F61;
+$secondary-color: #9E2A2B;
+$tertiary-color: #FFF3B0;
+$quaternary-color: #335C67;
+$quinary-color: #540B0E;
+
+@mixin mask {
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: #000, $alpha: 0.7);
+}

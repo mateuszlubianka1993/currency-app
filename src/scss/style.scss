@@ -1,7 +1,56 @@
 @import "~bootstrap/scss/bootstrap";
+@import './variables';
 
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    .main-nav {
+        background-color: $primary-color;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .nav-link, .navbar-brand {
+            color: #fff !important;
+        }
+    }
+
+    .main-header {
+        height: 100vh;
+        background-image: url('../img/aerial-architectural-design-architecture-buildings-373912.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .mask {
+            @include mask;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .header-content {
+                color: $tertiary-color;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+                
+                h1 {
+                    font-size: 6.5rem;
+                    flex-basis: 100%;
+                }
+
+                .header-btn {
+                    background-color: $primary-color;
+                    color: $tertiary-color;
+                    width: 30%;
+                    align-self: flex-end;
+                    margin-top: 70px;
+                }
+            }
+        }
+    }
 }
