@@ -5,6 +5,13 @@ $tertiary-color: #FFF3B0;
 $quaternary-color: #335C67;
 $quinary-color: #540B0E;
 
+// BREAKS
+$break-xlarge: 1200px;
+$break-large: 992px;
+$break-medium: 768px;
+$break-small: 576px;
+
+
 @mixin mask {
     height: 100%;
     width: 100%;
