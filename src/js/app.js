@@ -15,7 +15,7 @@ function getTableA() {
             return el.mid;
         })
 
-        let ctx = document.getElementById('myChart');
+        let ctx = document.getElementById('tableAChart');
         let myChart = new Chart(ctx, {
             type: 'bar',
             data: {
