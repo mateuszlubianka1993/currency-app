@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
-    getTableA();
+    // getTableA();
+    getGoldPrices()
 });
 
 function getTableA() {
@@ -114,3 +115,12 @@ function getTableA() {
         });
     });
 };
+
+function getGoldPrices() {
+
+    $.getJSON('http://api.nbp.pl/api/cenyzlota/last/30/?format=json', function (data) {
+
+        console.log(data);
+    });
+};
+
