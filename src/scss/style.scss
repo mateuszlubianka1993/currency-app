@@ -82,14 +82,22 @@ body {
 
     .currency-section {
         background-color: $tertiary-color;
-        padding: 4rem;
+        padding-bottom: 1rem;
         color: $secondary-color;
     }
 
     .gold-section {
         background-color: $quaternary-color;
-        padding: 4rem;
+        padding-bottom: 1rem;
         color: $tertiary-color;
+    }
+
+    .main-footer {
+        background-color: $quinary-color;
+        height: 80px;
+        padding: 30px;
+        color: $tertiary-color;
+        text-align: center;
     }
 
     .section-header {
