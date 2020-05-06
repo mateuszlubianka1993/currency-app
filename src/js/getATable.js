@@ -76,7 +76,7 @@ export function getTableA() {
         'rgba(158, 42, 43, 1)'
     ];
 
-    $.getJSON('http://api.nbp.pl/api/exchangerates/tables/a?format=json', function (data) {
+    $.getJSON('https://api.nbp.pl/api/exchangerates/tables/a?format=json', function (data) {
 
         const rates = data[0].rates;
         const labels = rates.map(el => {

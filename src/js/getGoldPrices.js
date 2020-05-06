@@ -1,6 +1,6 @@
 export function getGoldPrices() {
 
-    $.getJSON('http://api.nbp.pl/api/cenyzlota/last/30/?format=json', function (data) {
+    $.getJSON('https://api.nbp.pl/api/cenyzlota/last/30/?format=json', function (data) {
         
         const labels = data.map(el => {
             return el.data;
