@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/mateuszlubianka1993/currency-app">
-    <img src="/src/assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Currency App</h3>
